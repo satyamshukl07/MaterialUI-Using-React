@@ -15,7 +15,7 @@ export default function Searchbox() {
         `${API_URL}?q=${city}&appid=${API_KEY}&units=metric`
       );
       const jsonResponse = await response.json();
-      console.log(jsonResponse);
+      
       let result = {
         temp: jsonResponse.main.temp,
         tempMin: jsonResponse.main.temp_min,

@@ -1,0 +1,14 @@
+.InfoBox {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 500px;
+}
+
+.InfoBox h1 {
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
