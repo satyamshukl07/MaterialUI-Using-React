@@ -15,11 +15,12 @@ export default function InfoBox(){
         tempMin: 25.67,
         tempMax: 25.99,
         humidity: 47,
-        wether: "haze",
+        weather: "haze",
     };
     return(
         <div className="InfoBox">
-            <h1>WeatherInfo - {info.wether}</h1>
+            <h1>WeatherInfo - {info.weather}</h1>
+            <div className = "CardContainer">
             <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         sx={{ height: 140 }}
@@ -39,6 +40,7 @@ export default function InfoBox(){
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
+    </div>
         </div>
     );
 }
